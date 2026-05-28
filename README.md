@@ -1,4 +1,4 @@
-Pharmacy Inventory System
+# Pharmacy Inventory System
 
 A simple Java program to manage pharmacy stock (medicines and medical devices).
 
@@ -13,7 +13,7 @@ Inventory.java - Stores and displays items
 
 Main.java - Runs the program
 
-How to Compile & Run
+## How to Compile & Run
 
  Prerequisites
 - Java Development Kit (JDK) 8 or higher
