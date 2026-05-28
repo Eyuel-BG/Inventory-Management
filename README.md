@@ -27,10 +27,16 @@ Steps
 2. Run the application : 
    java Main
 
-3. Expected Output:
-   Item added successfuly!
-   Item added successfuly!
-   Current Stock
-   Medication Item: Painkiller | Price: Birr 4000.0 | Stock: 100 | Expires: 12/2027
-   Equipment Name: Thermometer
-   Warranty Period: 24 months
+3.## Expected Output
+
+```text
+Item added successfully!
+Item added successfully!
+
+Current Stock
+
+Medication Item:
+Painkiller | Price: Birr 4000.0 | Stock: 100 | Expires: 12/2027
+
+Equipment:
+Thermometer | Warranty Period: 24 months
