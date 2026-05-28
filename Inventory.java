@@ -5,7 +5,7 @@ public class Inventory {
 public void addItem(Item newItem) {
     stock[itemCount] = newItem;
     itemCount = itemCount + 1;
-    System.out.println("Item added successfuly!");
+    System.out.println("Item added successfully!");
     }
 
 public void showInventory() {
