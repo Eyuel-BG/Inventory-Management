@@ -6,6 +6,7 @@ public class Main {
         pharmacy.addItem(med);
         pharmacy.addItem(equip);
         pharmacy.showInventory();
-    }
-} 
 
+    }
+}
+// trigger workflow
