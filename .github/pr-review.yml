@@ -1,0 +1,36 @@
+name: Automated PR Review
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Compile Java Files
+        run: javac *.java
+
+      - name: Run Tests
+        run: echo "No tests available"
+
+      - name: Code Quality Check
+        run: |
+          if grep -r "System.exit" .; then
+            echo "Forbidden code detected!"
+            exit 1
+          fi
+
+      - name: Success
+        run: echo "Pipeline Passed"
