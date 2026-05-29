@@ -27,7 +27,7 @@ Steps
 2. Run the application : 
    java Main
 
-3.## Expected Output
+3. #Expected Output
 
 ```text
 Item added successfully!
